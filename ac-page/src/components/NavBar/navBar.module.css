@@ -1,0 +1,15 @@
+.navBar {
+  height: 62px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  background-image: linear-gradient(
+    to top,
+    #050500,
+    #0e0b09,
+    #131111,
+    #171616,
+    #1a1a1a
+  );
+  display: flex;
+  justify-content: center;
+}

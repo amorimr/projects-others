@@ -1,0 +1,27 @@
+{
+  "name": "projects-others",
+  "version": "1.0.0",
+  "description": "Miscellaneous projects",
+  "main": "index.js",
+  "author": "Raquel Amorim",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "update-dependencies": "find . -type f -name 'package.json' -not -path './.git/*' -not -path '*/node_modules/*' -execdir ncu --upgrade ; && yarn"
+  },
+  "workspaces": [
+    "ac-page",
+    "blogger-theme",
+    "crowdfunding-campaign",
+    "dark-mode-switch",
+    "dsign-landing",
+    "error-page",
+    "photo-gallery-react-app",
+    "portfolio_v1",
+    "pure-css-gallery",
+    "react-boilerplate"
+  ],
+  "dependencies": {
+    "npm-check-updates": "^7.1.1"
+  }
+}

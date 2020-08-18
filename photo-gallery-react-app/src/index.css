@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  background: url(https://images.unsplash.com/photo-1523978591478-c753949ff840?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c92fa17c403874495c84c6f31f5ef403&auto=format&fit=crop&w=1500&q=80);
+  margin: 10px;
+  height: 250px;
+  background-position: 20% 20%;
+}
+
+h1 {
+  background-color: rgba(0, 0, 0, 0.8);
+  font-family: "Montserrat", sans-serif;
+  margin: 60px auto;
+  display: inline-block;
+  padding: 10px;
+  font-weight: 700;
+  color: transparent;
+  font-size: 80px;
+}
+span {
+  background: url("https://images.unsplash.com/photo-1523978591478-c753949ff840?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c92fa17c403874495c84c6f31f5ef403&auto=format&fit=crop&w=1500&q=80");
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  display: block;
+  background-position: 6% 25%;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.galleyContainer {
+  margin-top: 50px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+button {
+  width: fit-content;
+  height: 100%;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.gallery button:hover {
+  cursor: pointer;
+}
+
+.galleryThumb {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.lightbox {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox button {
+  height: auto;
+  color: #fff;
+}
+
+.lightbox .close {
+  align-self: end;
+  margin: 50px 0;
+}
+
+.close,
+.previous,
+.next {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  padding: 5px;
+}
+.close {
+  align-self: flex-start;
+  order: 4;
+}
+
+.galleryImage {
+  max-width: 90vw;
+  max-height: 95vh;
+  object-fit: cover;
+}
+
+.lightbox:target {
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+  .galleryImage {
+    max-width: 75vw;
+    max-height: 75vh;
+  }
+}
+
+.searchForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchForm input {
+  padding: 5px;
+}
+
+.searchForm input:focus {
+  border: 2px solid #04131a;
+  outline: none;
+}
+
+.searchButton {
+  border: none;
+  padding: 7px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: #04131a;
+  color: #fff;
+}
+
+.searchButton:hover {
+  color: #fff;
+  background-color: #a91735;
+}

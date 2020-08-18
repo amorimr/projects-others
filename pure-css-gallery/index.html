@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pure CSS gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="gallery-container">
+        <div class="main-thumbnail-wrapper">
+          <a href="#img1"><img src="https://images.unsplash.com/photo-1535219241072-7d3c28a49a5c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2dbd146cbe003c86454d987153e59d6a&auto=format&fit=crop&w=1496&q=80"></a>
+        </div>
+        <div class="thumbnails-wrapper grid4">
+          <a href="#img2"><img src="https://images.unsplash.com/photo-1535191029341-ae8435767b0e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=052cff87842e3319ee577f92dbd22ea9&auto=format&fit=crop&w=400&q=80" class="thumbnail" alt="lavabo"></a>
+          <a href="#img3"><img src="https://images.unsplash.com/photo-1535224144809-6e323fbcb69c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=523a3cd874ef92e18352cdf06af5a1e4&auto=format&fit=crop&w=400&q=80" class="thumbnail"></a>
+          <a href="#img4"><img src="https://images.unsplash.com/photo-1535025287458-e3badca98021?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=aabca54bbff0b329140561274ffcd37a&auto=format&fit=crop&w=400&q=80" class="thumbnail"></a>
+          <a href="#img5"><img src="https://images.unsplash.com/photo-1535039088477-750b58486dc1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=766bf7b88ac94b599e976708e4222e19&auto=format&fit=crop&w=400&q=80" class="thumbnail"></a>  
+          <a href="#img6"><img src="https://images.unsplash.com/photo-1535159530326-d7bf54bfb24e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cc4ab6e8bd189fec1627874523c2f389&auto=format&fit=crop&w=400&q=80" class="thumbnail"></a>
+          <a href="#img7"><img src="https://images.unsplash.com/photo-1535043195801-127690ea31ec?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2a24e58ebe51f28ac847e23badce513a&auto=format&fit=crop&w=400&q=80" class="thumbnail"></a>
+          <a href="#img8"><img src="https://images.unsplash.com/photo-1534955702244-4957157f5c2b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7a5c66f5f2a51a437dc4aaaa3891e023&auto=format&fit=crop&w=400&q=80" class="thumbnail"></a>
+          <a href="#img9"><img src="https://images.unsplash.com/photo-1535124827275-dd7536f8db5a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d8ba10a26aef98c327379b5ae34c36ea&auto=format&fit=crop&w=400&q=80" class="thumbnail"></a>
+        </div>
+      
+        <div class="lightbox" id="img1">
+          <a class="lightbox-close" href="#_">x</a>
+          <a class="lightbox-previous" href="#img5">&lt;</a>
+          <a href="#_"><img src="https://images.unsplash.com/photo-1535219241072-7d3c28a49a5c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2dbd146cbe003c86454d987153e59d6a&auto=format&fit=crop&w=1380&q=80"></a>
+          <a class="lightbox-next" href="#img2">&gt;</a>
+        </div>
+        <div class="lightbox" id="img2">
+          <a class="lightbox-close" href="#_">x</a>
+          <a class="lightbox-previous" href="#img1">&lt;</a>
+          <a href="#_"><img src="https://images.unsplash.com/photo-1535191029341-ae8435767b0e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=052cff87842e3319ee577f92dbd22ea9&auto=format&fit=crop&w=1380&q=80" alt="lavabo"></a>
+          <a class="lightbox-next" href="#img3">&gt;</a>
+        </div>
+        <div class="lightbox" id="img3">
+          <a class="lightbox-close" href="#_">x</a>
+          <a class="lightbox-previous" href="#img2">&lt;</a>
+          <a href="#_"><img src="https://images.unsplash.com/photo-1535224144809-6e323fbcb69c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=523a3cd874ef92e18352cdf06af5a1e4&auto=format&fit=crop&w=1380&q=80"></a>
+          <a class="lightbox-next" href="#img4">&gt;</a>
+        </div>
+        <div class="lightbox" id="img4">
+          <a class="lightbox-close" href="#_">x</a>
+          <a class="lightbox-previous" href="#img3">&lt;</a>
+          <a href="#_"><img src="https://images.unsplash.com/photo-1535025287458-e3badca98021?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=aabca54bbff0b329140561274ffcd37a&auto=format&fit=crop&w=1380&q=80"></a>
+          <a class="lightbox-next" href="#img5">&gt;</a>
+        </div>
+        <div class="lightbox" id="img5">
+          <a class="lightbox-close" href="#_">x</a>
+          <a class="lightbox-previous" href="#img4">&lt;</a>
+          <a href="#_"><img src="https://images.unsplash.com/photo-1535039088477-750b58486dc1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=766bf7b88ac94b599e976708e4222e19&auto=format&fit=crop&w=1380&q=80"></a>
+          <a class="lightbox-next" href="#img6">&gt;</a>
+        </div>  
+        <div class="lightbox" id="img6">
+          <a class="lightbox-close" href="#_">x</a>
+          <a class="lightbox-previous" href="#img5">&lt;</a>
+          <a href="#_"><img src="https://images.unsplash.com/photo-1535159530326-d7bf54bfb24e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cc4ab6e8bd189fec1627874523c2f389&auto=format&fit=crop&w=1380&q=80"></a>
+          <a class="lightbox-next" href="#img7">&gt;</a>
+        </div>
+          <div class="lightbox" id="img7">
+            <a class="lightbox-close" href="#_">x</a>
+            <a class="lightbox-previous" href="#img6">&lt;</a>
+            <a href="#_"><img src="https://images.unsplash.com/photo-1535043195801-127690ea31ec?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2a24e58ebe51f28ac847e23badce513a&auto=format&fit=crop&w=1380&q=80"></a>
+            <a class="lightbox-next" href="#img8">&gt;</a>
+        </div>
+            <div class="lightbox" id="img8">
+              <a class="lightbox-close" href="#_">x</a>
+              <a class="lightbox-previous" href="#img7">&lt;</a>
+              <a href="#_"><img src="https://images.unsplash.com/photo-1534955702244-4957157f5c2b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7a5c66f5f2a51a437dc4aaaa3891e023&auto=format&fit=crop&w=1380&q=80"></a>
+              <a class="lightbox-next" href="#img9">&gt;</a>
+            </div>
+            <div class="lightbox" id="img9">
+              <a class="lightbox-close" href="#_">x</a>
+              <a class="lightbox-previous" href="#img8">&lt;</a>
+              <a href="#_"><img src="https://images.unsplash.com/photo-1535124827275-dd7536f8db5a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d8ba10a26aef98c327379b5ae34c36ea&auto=format&fit=crop&w=1380&q=80"></a>
+              <a class="lightbox-next" href="#img1">&gt;</a>
+            </div>
+          </div>
+      
+</body>
+</html>

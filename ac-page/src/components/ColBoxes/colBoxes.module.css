@@ -1,0 +1,25 @@
+.section {
+  display: grid;
+  grid-template-columns: 314px 637px;
+  grid-gap: 9px;
+  margin-top: 10px;
+}
+
+.thumbnailHeader {
+  height: 35px;
+  background-color: #891016;
+  color: #fff;
+  font-family: "Arial";
+  font-size: 18px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  padding-left: 21px;
+  grid-column: 1 / span 2;
+  margin: 0;
+}
+
+.articles {
+  padding-top: 10px;
+  background-color: #000;
+}

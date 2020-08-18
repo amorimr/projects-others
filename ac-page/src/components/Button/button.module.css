@@ -1,0 +1,36 @@
+.button {
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Century Gothic";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.004);
+  height: 100%;
+  position: relative;
+  padding: 10px;
+}
+
+.button:not(:last-of-type)::after {
+  display: inline-block;
+  content: "";
+  height: 18px;
+  border: 1px solid #fff;
+  position: absolute;
+  left: 1px;
+  top: 50%;
+  left: calc(100% - 1px);
+  transform: translateY(-50%);
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  color: #891016;
+}

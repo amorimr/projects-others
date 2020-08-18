@@ -1,0 +1,29 @@
+.container {
+  height: 457px;
+  display: inline-block;
+  position: relative;
+}
+
+.thumbnails {
+  height: 120px;
+  display: flex;
+  background-color: #000;
+  border: 1px solid #cd1821;
+  margin: 12px;
+  position: absolute;
+  bottom: 0;
+}
+
+.article {
+  padding-top: 13px;
+  outline: none;
+}
+
+.article:hover {
+  cursor: pointer;
+}
+
+.selected {
+  background: url("../../images//texture.png");
+  background-size: cover;
+}

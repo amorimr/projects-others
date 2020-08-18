@@ -1,0 +1,37 @@
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  padding: 20px 0;
+  border-top-color: rgb(138, 138, 138);
+  border-top-width: 1px;
+  border-top-style: solid;
+}
+
+.image {
+  margin: 10px 25px;
+  position: relative;
+}
+
+.image:last-of-type::after {
+  display: inline-block;
+  content: "Blood \A Language \A Mild Sexual Themes \A Violence";
+  white-space: pre;
+  font-size: 11px;
+  line-height: 1.273;
+  font-family: "Arial";
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: calc(100% + 15px);
+}
+
+.copyright {
+  font-size: 9px;
+  font-family: "Arial";
+  color: #fff;
+  padding-top: 20px;
+}

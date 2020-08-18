@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+* {
+    margin: 0;
+    padding: 0;    
+  }
+
+  .gallery {    
+    margin: 4rem;
+    text-align: center;
+}
+  
+  .gallery-container {
+    display: flex;  
+    margin: 0 20vw;  
+    width: 100vw;  
+  }
+  
+  .main-thumbnail-wrapper {
+    width: 40vw;
+    margin: 10px 0;    
+  }
+  
+  .main-thumbnail-wrapper img {
+   width: calc(40vw - 4px);
+    height: calc(40vw - 4px);
+    object-fit: cover;
+    margin: 2px 0;
+  }
+  
+  .lightbox {      
+      display: none;        
+      position: fixed;
+      z-index: 999;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      top: 0rem;
+      left: 0;
+      background: rgba(0,0,0,0.9);
+  }
+  
+  .lightbox img {      
+      max-width: 90vw;
+      max-height: 95vh;
+      margin: 10px;
+      
+  }
+  
+  .lightbox:target {     
+      outline: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  
+  .thumbnails-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 40vw;
+    margin: 10px 0;
+  }
+  
+  .thumbnails-wrapper.grid2 img {
+    width: calc(40vw / 2 - 4px);
+    height: calc(40vw / 2 - 4px);
+    object-fit: cover;
+    display: block; 
+    margin: 2px;
+  }
+  
+  .thumbnails-wrapper.grid3 img {
+    width: calc(40vw / 3 - 4px);
+    height: calc(40vw / 3 - 4px);
+    object-fit: cover;
+    display: block; 
+    margin: 2px;
+  }
+  
+  .thumbnails-wrapper.grid4 img {
+    width: calc(40vw / 4 - 4px);
+    height: calc(40vw / 4 - 4px);
+    object-fit: cover;
+    display: block; 
+    margin: 2px;
+  }
+  
+  .thumbnails-wrapper.grid5 img {
+    width: calc(40vw / 5 - 4px);
+    height: calc(40vw / 5 - 4px);
+    object-fit: cover;
+    display: block; 
+    margin: 2px;
+  }
+
+.lightbox-close {
+    order: 5;
+    align-self: flex-start;        
+}
+
+.lightbox-close,
+.lightbox-next,
+.lightbox-previous {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    text-decoration: none;
+    color: #fff;
+}

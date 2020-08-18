@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Raquel Amorim | Web Development</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" type="image/png" sizes="16x16" href="favicon/favicon.png">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+	 crossorigin="anonymous">
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+
+</head>
+<body>
+	<div class="main-container">
+		<header class="header img-1">
+			<h1 class="heading-primary">
+				<span class="heading-primary--main"><span class="hi">Hi!&nbsp;</span><span class="im">I'm</span></span>
+				<span class="heading-primary-name">Raquel,</span>
+				<span class="heading-primary-role">Front-End Web Developer</span>
+			</h1>
+		</header>
+		<nav class="navigation">
+			<a href="#about" class="navigation-element" id="link-about">About</a>
+			<a href="#skills" class="navigation-element" id="link-skills">Skills</a>
+			<a href="#projects" class="navigation-element" id="link-skills">Projects</a>
+			<a href="#contact" class="navigation-element" id="link-contact">Contact</a>
+		</nav>
+		<div class="main-content">
+			<section class="about-me" id="about">
+				<h2 class="about-me-title section-title">About <span class="about-me-title-sub section-title-sub">me</span></h2>
+				<p class="about-me-text section-text"> I am a web developer based in Montréal, Canada. I am passionate about learning
+					and applying my knowledge in the creation of awesome projects.</p>
+			</section>
+			<div class="img-2">
+			</div>
+			<section class="skills" id="skills"></section>
+			<h2 class="skills-title section-title">My <span class="skills-sub section-title-sub">skills</span></h2>
+			<div class="skills-container">
+				<div class="main-skills">
+					<div class="skills-item "><span><i class="devicon-html5-plain"></i></div>
+					<div class="skills-item"><span><i class="devicon-css3-plain"></i></i></span></div>
+					<div class="skills-item"><span><i class="devicon-javascript-plain"></i></span></div>
+				</div>
+				<div class="other-skills">
+					<i class="devicon-jquery-plain-wordmark colored"></i>
+					<i class="devicon-bootstrap-plain-wordmark colored"></i>
+					<i class="devicon-sass-original colored"></i>
+					<i class="devicon-react-original-wordmark colored"></i>
+					<i class="devicon-illustrator-plain"></i>
+					<i class="devicon-photoshop-plain"></i>
+				</div>
+			</div>
+			</section>
+			<div class="img-3">
+			</div>
+			<section class="projects" id="projects">
+				<h2 class="projects-title section-title">My <span class="projects-sub section-title-sub">projects</span></h2>				
+				<div class="button-container">
+					<button class="projects-button" id="html-css">HTML & CSS</button>
+					<button class="projects-button" id="javascript">JavaScript</button>
+					<button class="projects-button" id="jquery">jQuery</button>
+					<button class="projects-button" id="react">React</button>
+				</div>
+				<div class="projects-content">
+					<figure class="html-css">
+						<img class="image-link" src="./images/screenshots/plomberieplampron.net_(Laptop with HiDPI screen).png" alt="">
+						<figcaption>
+							<h3>Template for a plumbing service</h3>
+							<a href="#popup_plampron">Take a look</a>
+						</figcaption>
+					</figure>
+					<figure class="react html-css">
+						<img src="./images/screenshots/phot0-gallery.herokuapp.com_(Laptop with HiDPI screen) (1).png" alt="">
+						<figcaption>
+							<h3>Photo search app</h3>
+							<a href="#popup_gallery">Take a look</a>
+						</figcaption>
+					</figure>
+					<figure class="html-css javascript">
+						<img src="./images/screenshots/blogumpordia.blogspot.com_(Laptop with HiDPI screen).png" alt="">
+						<figcaption>
+							<h3>Template for a blog</h3>
+							<a href="#popup_blog">Take a look</a>
+						</figcaption>
+					</figure>
+					<figure class="html-css jquery">
+						<img src="./images/screenshots/amorimr.github.io_Show-The-Local-Weather_(Laptop with HiDPI screen).png" alt="">
+						<figcaption>
+							<h3>Weather information app</h3>
+							<a href="#popup_weather">Take a look</a>
+						</figcaption>
+					</figure>
+					<figure class="html-css">
+						<img src="./images/screenshots/amorimr.github.io_landing-page_(Laptop with HiDPI screen).png" alt="">
+						<figcaption>
+							<h3>Service landing page </h3>
+							<a href="#popup_landing">Take a look</a>
+						</figcaption>
+					</figure>
+					<figure class="html-css jquery">
+						<img src="./images/screenshots/twitch-desktop.png" alt="">
+						<figcaption>
+							<h3>Status of Twitch channels app</h3>
+							<a href="#popup_twitch">Take a look</a>
+						</figcaption>
+					</figure>
+					<div class="projects_popups">
+						<div class="popup" id="popup_plampron">
+							<a href="#/" class="popup-close">X</a>
+							<img src="images/screenshots/Presentation - plampron small.png" alt="">
+							<h3>Template for a plumbing service. Technologies used: HTML and CSS (Flexbox). Visit the <a href="http://plomberieplampron.net/">website</a>.</h3>
+						</div>
+						<div class="popup" id="popup_gallery">
+							<a href="#/" class="popup-close">X</a>
+							<img src="images/screenshots/Presentation - gallery small.png" alt="">
+							<h3>An image search app built using React and the Unsplash API. Visit the <a href="https://phot0-gallery.herokuapp.com/">website</a>
+								and the <a href="https://github.com/amorimr/photo-gallery-react-app">GitHub</a> repository.</h3>
+						</div>
+						<div class="popup" id="popup_blog">
+							<a href="#/" class="popup-close">X</a>
+							<img src="images/screenshots/Presentation - blog small.png" alt="">
+							<h3>Template for a personal blog built using CSS, HTML and JavaScript. Visit the <a href="https://blogumpordia.blogspot.com/">website</a>.</h3>
+						</div>
+						<div class="popup" id="popup_weather">
+							<a href="#/" class="popup-close">X</a>
+							<img src="images/screenshots/weather.png" alt="">
+							<h3>Application built using HTML, CSS and jQuery that displays weather information based on the user's current location.
+								Visit the <a href="https://amorimr.github.io/Show-The-Local-Weather/">website </a>and the <a href="https://github.com/amorimr/Show-The-Local-Weather">GitHub
+									repository</a>.</h3>
+						</div>
+						<div class="popup" id="popup_landing">
+							<a href="#/" class="popup-close">X</a>
+							<img src="images/screenshots/small.png" alt="">
+							<h3>Service website built with HTML and CSS(Sass). Visit the <a href="https://amorimr.github.io/landing-page/">website</a>
+								and the <a href="https://github.com/amorimr/landing-page">GitHub</a> repository</a>.</h3>
+						</div>
+						<div class="popup" id="popup_twitch">
+							<a href="#/" class="popup-close">X</a>
+							<img src="images/screenshots/twitch.png" alt="">
+							<h3>Application built with HTML, CSS and jQuery that displays the status of Twitch channels. Visit the <a href="https://amorimr.github.io/Twitch-tv/">website</a>
+								and the <a href="https://github.com/amorimr/Twitch-tv">GitHub</a> repository</a>.</h3>
+						</div>
+					</div>
+				</div>
+				<h3>More projects can be seen on <a href="https://github.com/amorimr">GitHub</a>
+				</h3>
+		</div>
+		</section>
+		<div class="img-4">
+		</div>
+		<section class="contact" id="contact">
+			<h2 class="contact-title section-title">Contact <span class="contact-sub section-title-sub">me!</span></h2>
+			<p class="contact-text">You may use the form below or contact me via <a class="contact-btn linkedin" href="https://www.linkedin.com/in/raquelamorim/"
+				 target="_blank">LinkedIn.</a></p>
+			<form method="POST" action="https://formspree.io/me@ramorim.com">
+				<input class="form-input" type="email" name="email" placeholder="Your email" required>
+				<textarea class="form-input" name="message" placeholder="Your message" required></textarea>
+				<button class="btn" type="submit">Send</button>
+			</form>
+		</section>
+	</div>
+	<footer class="footer">
+		<p class="credit">Raquel Amorim &copy; 2018</p>
+		<a class="footer-button github" href="https://github.com/amorimr" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+	</footer>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>

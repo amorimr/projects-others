@@ -1,0 +1,136 @@
+/*****************************
+  BASE SETUP
+*****************************/
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700");
+
+html {
+  box-sizing: border-box; /* use IE box model */
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit; /* inherit allows for easy creation of a new box model context further down the tree */
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; /* smoother rendering of fonts */
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 800px;
+  height: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(237, 241, 242);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner-container {
+  width: 660px;
+  height: 470px;
+  background-color: #fff;
+}
+
+.banner {
+  width: 660px;
+  height: 212px;
+  background: url(../images/card-header.jpg);
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 25px 45px;
+}
+
+h1 span {
+  text-transform: none;
+  color: rgb(155, 155, 155);
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 12px;
+  letter-spacing: 0.5px;
+}
+
+.data {
+  align-self: center;
+  justify-self: center;
+  display: flex;
+  padding: 12px 0 0 35px;
+  letter-spacing: 0.5px;
+}
+
+.pannel-left {
+  width: 25%;
+}
+
+.pannel-right {
+  width: 75%;
+  padding: 10px;
+  margin-left: 40px;
+}
+
+.pannel-right h3 {
+  font-size: 18px;
+  letter-spacing: -0.5px;
+  padding: 10px 0;
+}
+
+.bar {
+  height: 9px;
+  width: 390px;
+  display: inline-block;
+  position: relative;
+  border-radius: 5px;
+  font-weight: 500;
+  background-color: rgb(241, 241, 241);
+}
+
+.bar-fill {
+  width: 275px;
+  height: 9px;
+  display: inline-block;
+  background-color: rgb(44, 222, 115);
+  position: absolute;
+  border-radius: 5px;
+}
+
+h3 {
+  color: rgb(155, 155, 155);
+  font-size: 14px;
+  padding: 12.5px;
+}
+
+h3 span {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000;
+}
+
+button {
+  border: none;
+  font-size: 14px;
+  padding: 14px 26px;
+  margin: 25px 25px 0 0;
+  color: #fff;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.back {
+  background-color: rgb(44, 222, 115);
+}
+
+.share {
+  background-color: rgb(207, 207, 207);
+}
